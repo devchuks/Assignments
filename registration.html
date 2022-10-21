@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script3.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Register</h1>
+    
+    <form id="login-form">
+      <input type="text" name="firstname" class="login-form-field" placeholder="First name">
+      <input type="text" name="lastname" class="login-form-field" placeholder="Last name">
+      <input type="number" name="phone" class="login-form-field" placeholder="Phone number">
+      <select class="login-form-field" name="gender" id="gender">
+        <option value="gend">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="birthday" class="login-form-field">Birthday:<input type="date" name="birthday"  placeholder="Date of birth"></label>
+      <select class="login-form-field" name="color" id="color">
+        <option value="choose">Favourite color</option>
+        <option value="red" style="color: #ff0000">Red</option>
+        <option value="green" style="color: #008000">Green</option>
+        <option value="blue" style="color: #0000ff">Blue</option>
+        <option value="other">Other</option>
+      </select>
+      <input type="text" name="lastname" class="login-form-field" placeholder="E-mail">
+      <input type="submit" value="Register" id="login-form-submit">
+    </form>
+  
+  </main>
+</body>
+
+</html>
